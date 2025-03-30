@@ -21,7 +21,7 @@ public class HttpServer {
         serverSocket = new ServerSocket(port);
         running = true;
 
-        System.out.println("HTTP Server started on port " + port);
+        System.out.println("HTTP Server started on port " + port + "\thttp://localhost:8080");
 
         while (running) {
             try {

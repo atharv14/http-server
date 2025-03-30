@@ -1,4 +1,5 @@
 package org.learn.http;
 
-public class HttpMethod {
+public enum HttpMethod {
+    GET, POST, PUT, DELETE, HEAD, OPTIONS, TRACE, CONNECT, PATCH, UNKNOWN;
 }
